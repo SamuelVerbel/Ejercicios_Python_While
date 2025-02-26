@@ -1,0 +1,7 @@
+i = 1
+suma = 0
+while i <= 100:
+    numero = int(input("Ingrese un número: "))
+    suma += numero
+    i += 1
+print("La suma de los 100 números es: ", suma)
