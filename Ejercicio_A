@@ -1,0 +1,5 @@
+Numero = int(input("Ingrese el valor de N: "))
+N = 0
+while N <= Numero:
+    print(N)
+    N = N + 1
