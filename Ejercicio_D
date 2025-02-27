@@ -1,3 +1,4 @@
+contador = 0
 while contador < 500:
     edad = int(input("Ingrese la edad: "))
     if edad >= 18:
