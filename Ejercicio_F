@@ -1,0 +1,12 @@
+contador = 0
+while contador < 50:
+    temperatura = float(input("Ingrese la temperatura: "))
+    if temperatura >= 38:
+        print("Tiene fiebre")
+    elif temperatura > 40:
+        print("Debería de estar en un hospital, tiene hiperpirexia")
+    elif temperatura >= 32 & temperatura <= 35:
+        print("Tiene hipotermia")
+    elif temperatura < 32:
+        print("Debería de estar en un hospital, tiene hipotermigrave")
+    contador += 1
